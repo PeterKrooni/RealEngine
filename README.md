@@ -31,7 +31,8 @@ These entities have their components managed by the Managers, which handle entit
 No assets are currently included in the engine, as asset handling still needs some work before that becomes a priority.
 
 #### Documentation
-In-depth documentation can be found at <a href="https://htmlpreview.github.io/?https://github.com/PeterKrooni/RealEngine/blob/main/Documentation/index.html">the documentation page</a>
+In-depth documentation can be found at <a href="https://htmlpreview.github.io/?https://github.com/PeterKrooni/RealEngine/blob/main/Documentation/index.html">the documentation page</a>.
+
 Custom RealEngine objects are prepended with 'VX_ + object type_ + name'
 
 VX_C ||  Class
