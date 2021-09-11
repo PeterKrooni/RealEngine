@@ -15,6 +15,8 @@ namespace VX_N_Blueprints {
 		VX_E_EntityTypes entityType;
 		VX_E_PhysicsState physState = VX_E_PhysicsState::NONE;
 		RenderLayer layer = RenderLayer::NONE;
+		std::string airPath = "";
+		std::string groundPath = "";
 		VX_E_EntityBlueprint(bool g, bool p, VX_E_EntityTypes t, VX_E_PhysicsState ps, RenderLayer l) {
 			gravity = g;
 			physics = p;

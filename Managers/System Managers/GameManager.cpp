@@ -82,17 +82,19 @@ void VX_C_GameManager::buildAutoEntities(VX_C_Window* target, std::vector<std::v
 			bool physics = entitiesToBuild[x][y].physics;
 			VX_E_PhysicsState state = entitiesToBuild[x][y].physState;
 			RenderLayer renderLayer = entitiesToBuild[x][y].layer;
+			const char* groundPath = entitiesToBuild[x][y].groundPath.c_str();
+			const char* airPath = entitiesToBuild[x][y].airPath.c_str();
 
 			switch (type) {
 			case VX_E_EntityTypes::AIR:
 				autoEntities[aapos].addRenderableComponent(target, RenderLayer::BACKGROUND);
-				autoEntities[aapos].loadTexture("SKY2020.png");
+				autoEntities[aapos].loadTexture(airPath);
 				addEntity(&autoEntities[aapos], Managers::RENDER);
 				autoEntities[aapos].setRenderLayer(renderLayer);
 				break;
 			case VX_E_EntityTypes::GROUND:
 				autoEntities[aapos].addRenderableComponent(target, RenderLayer::BACKGROUND);
-				autoEntities[aapos].loadTexture("GROUND2020.png");
+				autoEntities[aapos].loadTexture(groundPath);
 				addEntity(&autoEntities[aapos], Managers::RENDER);
 				autoEntities[aapos].setRenderLayer(renderLayer);
 				break;

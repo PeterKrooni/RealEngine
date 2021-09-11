@@ -31,7 +31,7 @@ bool VX_C_Window::init (SDL_Renderer* render, const char* name, int SCREEN_WIDTH
 		}
 
 		// Init TTF font
-		this->mFont = TTF_OpenFont("OxygenMono-Regular.ttf", this->mFontPointSize);
+		this->mFont = TTF_OpenFont("Assets/Font/OxygenMono-Regular.ttf", this->mFontPointSize);
 		if (this->mFont == NULL) {
 			printf("Could not open font font.ttf, SDL Error: &s\n", SDL_GetError());
 		}

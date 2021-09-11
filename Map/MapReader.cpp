@@ -8,13 +8,19 @@ std::vector<std::vector<VX_N_Blueprints::VX_E_EntityBlueprint>> VX_C_MapReader::
 
 	int currentLine = 0;
 
+	std::string groundPath = "";
+	std::string airPath = "";
+
 	for (auto s : readMap(filePath)) {
-		if (currentLine >= configLineCount) { // skip over initial config lines in map
+		if (currentLine > configLineCount) { // skip over initial config lines in map
 			std::vector< VX_N_Blueprints::VX_E_EntityBlueprint> currentLine;
 			std::string currentTile = "";
 			for (char c : s) {
 				if (c == tileSeparator) { // start parsing next tile'
-					currentLine.push_back(parseTile(currentTile));
+					VX_N_Blueprints::VX_E_EntityBlueprint bp = parseTile(currentTile);
+					bp.airPath = airPath;
+					bp.groundPath = groundPath;
+					currentLine.push_back(bp);
 					currentTile = "";
 				}
 				else {
@@ -22,6 +28,52 @@ std::vector<std::vector<VX_N_Blueprints::VX_E_EntityBlueprint>> VX_C_MapReader::
 				}
 			}
 			ret.push_back(currentLine);
+		}
+		// at sprite path config
+		else if (currentLine == configLineCount) { 
+			std::map<std::string, std::string> typePathMap;
+			std::string stringBuild = "";
+			int itCount = 0;
+			for (char c : s) {
+				// new type config
+				if (c == ',') {
+					// loop through currently built string and split into type,path
+					std::string type;
+					std::string path;
+					bool atSplit = false;
+					for (char d : stringBuild) {
+						if (d == ':') {
+							atSplit = true;
+						}
+						if (!atSplit) {
+							type += d;
+						}
+						else if (d != ':') {
+							path += d;
+						}
+					}
+					// add built type and path to map, and reset built string for next type config
+					typePathMap.emplace(type, path);
+					stringBuild = "";
+				}
+				else {
+					stringBuild += c;
+				}
+				// Delete string if before config starts
+				if (c == '=' || c == '{') {
+					stringBuild = "";
+				}
+			}
+			std::cout << "\n \n \n \n";
+			// assign paths received from typePathMap
+			for (auto m : typePathMap) {
+				if (m.first == "air") {
+					airPath = m.second;
+				}
+				if (m.first == "ground") {
+					groundPath = m.second;
+				}
+			}
 		}
 		currentLine++;
 	}

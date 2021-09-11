@@ -1,5 +1,3 @@
-
-
 #include <SDL.h>
 #include <SDL_image.h>
 #include <SDL_ttf.h>
@@ -22,6 +20,7 @@
 #include "Tools/Debug/DebugPerformance.h"
 #include "Unfiltered/Ray.h"
 #include "Components/RenderableComponent.h"
+#include "Tools/Config/MapConfig.h"
 
 #include <iostream>
 
@@ -50,7 +49,7 @@ int main (int argc, char* args[]) {
 	w.setCameraTo(&camx, &camy);
 
 	VX_C_GameManager gameManager(&w);
-	gameManager.buildAutoEntities(&w, VX_C_MapReader::parseMap("testmap.txt"));
+	gameManager.buildAutoEntities(&w, VX_C_MapReader::parseMap("Assets/Map/testmap.txt"));
 
 	Ray ray;
 	ray = Ray(0, 0, 3, 1);
@@ -83,11 +82,18 @@ TODO:
 	State based animation
 		Play animation based on entity state
 			Using physics state as base entity state
+
+
+
+
+
+
+	Config file for file paths
 */
 
 	
 	VX_C_Actor act;
-	act.setSprite("PLAYER2_STANDING2.png", &w);
+	act.setSprite("Assets/Image/PLAYER2_STANDING2.png", &w);
 	act.setPhysics(true);
 	act.move(500, 10);
 	act.setKeyStatePtr(SDL_GetKeyboardState(NULL));
@@ -100,7 +106,7 @@ TODO:
 	gameManager.addEntity(&gr, Managers::PHYSICS);
 	gr.addRenderableComponent(&w, RenderLayer::ENTITY);
 	gr.addPhysicsComponent();
-	gr.loadTexture("GROUND2020.png");
+	gr.loadTexture("Assets/Image/GROUND2020.png");
 	gr.toggleGravity();
 	gr.moveEntity(30, 30);
 	gr.getPhysicsComponent()->setVelX(20);
@@ -110,7 +116,7 @@ TODO:
 	gameManager.addEntity(&ar, Managers::PHYSICS);
 	ar.addRenderableComponent(&w, RenderLayer::ENTITY);
 	ar.addPhysicsComponent();
-	ar.loadTexture("GROUND2020.png");
+	ar.loadTexture("Assets/Image/GROUND2020.png");
 	ar.toggleGravity();
 	ar.moveEntity(330, 30);
 	ar.getPhysicsComponent()->setVelX(2);
