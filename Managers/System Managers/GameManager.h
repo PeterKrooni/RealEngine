@@ -1,8 +1,8 @@
 #pragma once
-#include "RenderManager.h"
-#include "PhysicsManager.h"
-#include "MapReader.h"
-#include "EntityBlueprints.h"
+#include "../Component Managers/RenderManager.h"
+#include "../Component Managers/PhysicsManager.h"
+#include "../../Map/MapReader.h"
+#include "../../Blueprints/EntityBlueprints.h"
 #include <stdlib.h>
 
 enum class Managers {

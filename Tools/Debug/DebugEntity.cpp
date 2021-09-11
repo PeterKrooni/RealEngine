@@ -2,7 +2,10 @@
 
 DebugEntity::DebugEntity()
 {
-	mWhite = SDL_Color(0, 0, 0, 255);
+	mWhite.r = 0;
+	mWhite.g = 0;
+	mWhite.b = 0;
+	mWhite.a = 255;
 }
 
 DebugEntity::~DebugEntity()

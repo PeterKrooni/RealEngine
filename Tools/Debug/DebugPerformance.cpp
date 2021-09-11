@@ -3,7 +3,12 @@
 void DebugPerformance::updateStore(VX_C_Window* targetWindow)
 {
 	textStore.resize(1);
-	textStore[0] = VX_C_DynamicTexture(&timePerFame, SDL_Color(255, 255, 255, 255));
+	SDL_Color black;
+	black.r = 255;
+	black.g = 255;
+	black.b = 255;
+	black.a = 255;
+	textStore[0] = VX_C_DynamicTexture(&timePerFame, black);
 	textStore[0].setPretext("Ms per frame: ");
 }
 

@@ -1,6 +1,6 @@
 #pragma once
-#include "Texture.h"
-#include "Window.h"
+#include "../SDL Wrappers/Texture.h"
+#include "../SDL Wrappers/Window.h"
 
 enum class RenderLayer {
 	NONE,

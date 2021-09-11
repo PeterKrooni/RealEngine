@@ -1,9 +1,9 @@
 #pragma once
-#include "RenderableComponent.h"
-#include "EntityPositionComponent.h"
-#include "PhysicsComponent.h"
-#include "CompositeComponent.h"
-#include "DebugComponent.h"
+#include "../Components/RenderableComponent.h"
+#include "../Components/EntityPositionComponent.h"
+#include "../Components/PhysicsComponent.h"
+#include "../Components/CompositeComponent.h"
+#include "../Components/DebugComponent.h"
 
 class VX_C_Entity
 {

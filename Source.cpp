@@ -1,3 +1,5 @@
+
+
 #include <SDL.h>
 #include <SDL_image.h>
 #include <SDL_ttf.h>
@@ -11,12 +13,15 @@
 #include "SDL Wrappers/Window.h"
 #include "SDL Wrappers/Texture.h"
 #include "Map/GameMap.h"
+#include "Map/MapReader.h"
 #include "Entity/Entity.h"
 #include "Blueprints/EntityBlueprints.h"
 #include "SDL Wrappers/BackendInitializer.h"
 #include "Managers/System Managers/GameManager.h"
 #include "Tools/Debug/DebugEntity.h"
 #include "Tools/Debug/DebugPerformance.h"
+#include "Unfiltered/Ray.h"
+#include "Components/RenderableComponent.h"
 
 #include <iostream>
 
@@ -47,7 +52,8 @@ int main (int argc, char* args[]) {
 	VX_C_GameManager gameManager(&w);
 	gameManager.buildAutoEntities(&w, VX_C_MapReader::parseMap("testmap.txt"));
 
-	Ray ray(0, 0, 3, 1);
+	Ray ray;
+	ray = Ray(0, 0, 3, 1);
 	Vector2 line(0, 0, 3, 1);
 	Point p = ray.cast(line);
 	std::cout << p.x << ", " << p.y << std::endl;
@@ -78,7 +84,6 @@ TODO:
 		Play animation based on entity state
 			Using physics state as base entity state
 */
-
 
 	
 	VX_C_Actor act;
@@ -114,7 +119,12 @@ TODO:
 	gameManager.addEntity(&testTitleText, Managers::RENDER);
 	testTitleText.addRenderableComponent(&w, RenderLayer::FOREGROUND);
 	testTitleText.moveEntity(40, 10);
-	testTitleText.loadTextToTexture("ID " + std::to_string(act.getEntity()->getEntityID()), SDL_Color(255, 255, 255, 255));
+	SDL_Color black;
+	black.r = 255;
+	black.g = 255;
+	black.b = 255;
+	black.a = 255;
+	testTitleText.loadTextToTexture("ID " + std::to_string(act.getEntity()->getEntityID()), black);
 
 	act.getEntity()->addChild(&testTitleText, 0, -30);
 

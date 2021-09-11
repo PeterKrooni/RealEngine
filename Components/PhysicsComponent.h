@@ -1,6 +1,6 @@
 #pragma once
-#include "Ray.h"
-#include "DataStructures.h"
+#include "../Unfiltered/Ray.h"
+#include "../Unfiltered/DataStructures.h"
 #include <iostream>
 #include <vector>
 

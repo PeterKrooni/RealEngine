@@ -1,6 +1,6 @@
 #pragma once
-#include "Window.h"
-#include "Texture.h"
+#include "../SDL Wrappers/Window.h"
+#include "../SDL Wrappers/Texture.h"
 #include <Vector>
 #include <iostream>
 #include <fstream>

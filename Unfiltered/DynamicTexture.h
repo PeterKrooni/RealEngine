@@ -1,5 +1,5 @@
 #pragma once
-#include "Texture.h"
+#include "../SDL Wrappers/Texture.h"
 
 /*
 *	Used for texture containing text that changes on a per frame basis

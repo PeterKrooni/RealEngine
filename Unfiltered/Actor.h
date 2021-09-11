@@ -1,5 +1,5 @@
 #pragma once
-#include "Entity.h"
+#include "../Entity/Entity.h"
 #include <iostream>
 
 enum class VX_E_ActorMoves {

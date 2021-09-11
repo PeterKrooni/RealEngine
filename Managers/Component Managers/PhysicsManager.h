@@ -1,7 +1,8 @@
 #pragma once
 #include <vector>
-#include "Entity.h"
-#include "Actor.h"
+#include "../../Entity/Entity.h"
+#include "../../Unfiltered/Actor.h"
+#include "../../Unfiltered/DataStructures.h"
 
 class VX_C_PhysicsManager
 {

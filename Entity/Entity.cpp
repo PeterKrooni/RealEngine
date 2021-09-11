@@ -1,5 +1,5 @@
 #include "Entity.h"
-#include "PhysicsComponent.h"
+#include "../Components/PhysicsComponent.h"
 #include <iostream>
 
 VX_C_Entity::VX_C_Entity()

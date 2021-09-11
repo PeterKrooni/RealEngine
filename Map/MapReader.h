@@ -1,7 +1,7 @@
 #pragma once
-#include "GameManager.h"
-#include "Entity.h"
-#include "EntityBlueprints.h"
+#include "../Managers/System Managers/GameManager.h"
+#include "../Entity/Entity.h"
+#include "../Blueprints/EntityBlueprints.h"
 
 class VX_C_MapReader
 {

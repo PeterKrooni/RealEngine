@@ -1,2 +1,251 @@
-﻿  Source.cpp
-C:\Users\Bruker\source\repos\RealEngine\RealEngine\Source.cpp(1,10): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+﻿  CompositeComponent.cpp
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Unfiltered\DataStructures.h(88,14): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  DebugComponent.cpp
+  EntityPositionComponent.cpp
+  PhysicsComponent.cpp
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Unfiltered\DataStructures.h(88,14): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(62,34): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(62,28): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(62,21): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(62,17): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(63,45): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(63,36): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(63,27): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(63,20): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(64,33): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(64,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(64,22): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(64,18): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(65,44): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(65,35): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(65,28): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(65,22): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.cpp(84,18): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.cpp(85,18): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.cpp(105,22): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.cpp(106,22): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.cpp(107,18): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.cpp(108,19): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.cpp(240,17): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  RenderableComponent.cpp
+  ChildEntity.cpp
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Unfiltered\DataStructures.h(88,14): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(62,34): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(62,28): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(62,21): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(62,17): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(63,45): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(63,36): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(63,27): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(63,20): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(64,33): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(64,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(64,22): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(64,18): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(65,44): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(65,35): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(65,28): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(65,22): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Entity.cpp
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Unfiltered\DataStructures.h(88,14): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(62,34): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(62,28): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(62,21): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(62,17): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(63,45): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(63,36): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(63,27): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(63,20): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(64,33): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(64,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(64,22): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(64,18): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(65,44): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(65,35): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(65,28): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(65,22): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Entity\Entity.cpp(142,27): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Entity\Entity.cpp(143,27): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  PhysicsManager.cpp
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Unfiltered\DataStructures.h(88,14): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(62,34): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(62,28): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(62,21): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(62,17): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(63,45): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(63,36): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(63,27): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(63,20): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(64,33): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(64,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(64,22): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(64,18): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(65,44): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(65,35): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(65,28): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(65,22): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Managers\Component Managers\PhysicsManager.h(13,24): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Managers\Component Managers\PhysicsManager.cpp(40,100): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Managers\Component Managers\PhysicsManager.cpp(40,42): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  RenderManager.cpp
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Unfiltered\DataStructures.h(88,14): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(62,34): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(62,28): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(62,21): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(62,17): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(63,45): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(63,36): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(63,27): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(63,20): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(64,33): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(64,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(64,22): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(64,18): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(65,44): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(65,35): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(65,28): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(65,22): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Managers\Component Managers\RenderManager.cpp(61,13): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Managers\Component Managers\RenderManager.cpp(62,13): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Managers\Component Managers\RenderManager.cpp(77,100): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Managers\Component Managers\RenderManager.cpp(77,82): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Managers\Component Managers\RenderManager.cpp(77,64): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Managers\Component Managers\RenderManager.cpp(77,46): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  GameManager.cpp
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Unfiltered\DataStructures.h(88,14): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(62,34): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(62,28): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(62,21): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(62,17): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(63,45): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(63,36): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(63,27): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(63,20): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(64,33): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(64,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(64,22): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(64,18): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(65,44): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(65,35): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(65,28): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(65,22): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Managers\Component Managers\PhysicsManager.h(13,24): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Blueprints\EntityBlueprints.h(40,3): warning C4091: 'static ': ignored on left of 'VX_N_Blueprints::VX_C_EntityTextures' when no variable is declared
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Managers\System Managers\GameManager.cpp(77,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Managers\System Managers\GameManager.cpp(78,21): warning C4018: '<': signed/unsigned mismatch
+  GameMap.cpp
+  MapReader.cpp
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Unfiltered\DataStructures.h(88,14): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(62,34): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(62,28): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(62,21): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(62,17): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(63,45): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(63,36): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(63,27): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(63,20): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(64,33): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(64,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(64,22): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(64,18): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(65,44): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(65,35): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(65,28): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(65,22): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Managers\Component Managers\PhysicsManager.h(13,24): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Blueprints\EntityBlueprints.h(40,3): warning C4091: 'static ': ignored on left of 'VX_N_Blueprints::VX_C_EntityTextures' when no variable is declared
+  BackendInitializer.cpp
+  Texture.cpp
+  Window.cpp
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\SDL Wrappers\Window.cpp(36,72): warning C4474: 'printf' : too many arguments passed for format string
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\SDL Wrappers\Window.cpp(36,72): message : placeholders and their parameters expect 0 variadic arguments, but 1 were provided
+  Source.cpp
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Unfiltered\DataStructures.h(88,14): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(62,34): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(62,28): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(62,21): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(62,17): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(63,45): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(63,36): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(63,27): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(63,20): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(64,33): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(64,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(64,22): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(64,18): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(65,44): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(65,35): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(65,28): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(65,22): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Managers\Component Managers\PhysicsManager.h(13,24): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Blueprints\EntityBlueprints.h(40,3): warning C4091: 'static ': ignored on left of 'VX_N_Blueprints::VX_C_EntityTextures' when no variable is declared
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Source.cpp(155,24): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Source.cpp(156,24): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Source.cpp(205,24): warning C4244: 'argument': conversion from 'float' to 'Uint32', possible loss of data
+  DebugEntity.cpp
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Unfiltered\DataStructures.h(88,14): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(62,34): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(62,28): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(62,21): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(62,17): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(63,45): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(63,36): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(63,27): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(63,20): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(64,33): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(64,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(64,22): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(64,18): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(65,44): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(65,35): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(65,28): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(65,22): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Managers\Component Managers\PhysicsManager.h(13,24): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Blueprints\EntityBlueprints.h(40,3): warning C4091: 'static ': ignored on left of 'VX_N_Blueprints::VX_C_EntityTextures' when no variable is declared
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Tools\Debug\DebugEntity.cpp(53,20): warning C4018: '<': signed/unsigned mismatch
+  DebugLog.cpp
+  DebugPerformance.cpp
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Unfiltered\DataStructures.h(88,14): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(62,34): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(62,28): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(62,21): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(62,17): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(63,45): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(63,36): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(63,27): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(63,20): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(64,33): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(64,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(64,22): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(64,18): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(65,44): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(65,35): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(65,28): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(65,22): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Managers\Component Managers\PhysicsManager.h(13,24): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Blueprints\EntityBlueprints.h(40,3): warning C4091: 'static ': ignored on left of 'VX_N_Blueprints::VX_C_EntityTextures' when no variable is declared
+  Actor.cpp
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Unfiltered\DataStructures.h(88,14): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(62,34): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(62,28): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(62,21): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(62,17): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(63,45): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(63,36): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(63,27): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(63,20): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(64,33): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(64,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(64,22): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(64,18): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(65,44): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(65,35): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(65,28): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Components\PhysicsComponent.h(65,22): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Generating Code...
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Entity\ChildEntity.cpp(24): warning C4715: 'VX_C_ChildEntity::linkToParent': not all control paths return a value
+  Compiling...
+  Ray.cpp
+C:\Users\Bruker\source\repos\RealEngine\RealEngine\Unfiltered\DataStructures.h(88,14): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  Generating Code...
+  RealEngine.vcxproj -> C:\Users\Bruker\source\repos\RealEngine\Debug\RealEngine.exe

@@ -1,7 +1,7 @@
 #pragma once
-#include "Window.h"
-#include "GameManager.h"
-#include "Debugger.h"
+#include "../../SDL Wrappers/Window.h"
+#include "../../Managers/System Managers/GameManager.h"
+#include "../Debug/Debugger.h"
 
 // Used to log performance stats, frame effifiency, time to calcualte per frame,
 // how much time each part of the loop takes etc.

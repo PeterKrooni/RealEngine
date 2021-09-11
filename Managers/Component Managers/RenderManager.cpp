@@ -60,17 +60,29 @@ void VX_C_RenderManager::handleFrame()
 			int centerY = a->getEntityPositionY() + (*a->getHitbox()->h / 2);
 			int velX = centerX + (a->getPhysicsComponent()->velX*2);
 			int velY = centerY + (a->getPhysicsComponent()->velY*2);
-			SDL_Color green(0, 255, 20, 255);
+			SDL_Color green;
+			green.r = 0;
+			green.g = 255;
+			green.b = 20;
+			green.a = 255;
 			this->mTargetWindow->drawLine(centerX, velX, centerY, velY, green);
 		}
 		if (a->tracingRayDisplay){
 			for (auto ray : a->getPhysicsComponent()->getRays()) {
-				SDL_Color blue(0, 0, 255, 255);
+				SDL_Color blue;
+				blue.r = 0;
+				blue.g = 0;
+				blue.b = 255;
+				blue.a = 255;
 				this->mTargetWindow->drawLine(ray.ray.ray.posx, ray.ray.ray.dirx, ray.ray.ray.posy, ray.ray.ray.diry, blue);
 			}
 		}
 		if (a->tracingHitboxOutline){
-			SDL_Color red(255, 0, 0, 255);
+			SDL_Color red;
+			red.r = 255;
+			red.g = 0;
+			red.b = 0;
+			red.a = 255;
 			int x = *a->getHitbox()->x;
 			int y = *a->getHitbox()->y;
 			int w = *a->getHitbox()->w;

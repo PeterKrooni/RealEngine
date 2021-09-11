@@ -1,5 +1,5 @@
 #pragma once
-#include "Texture.h"
+#include "../SDL Wrappers/Texture.h"
 #include <map>
 #include <variant>
 

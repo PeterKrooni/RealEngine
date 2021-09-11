@@ -1,9 +1,9 @@
 #pragma once
 #include <vector>
-#include "Entity.h"
-#include "RenderableComponent.h"
-#include "Texture.h"
-#include "DynamicTexture.h"
+#include "../../Entity/Entity.h"
+#include "../../Components/RenderableComponent.h"
+#include "../../SDL Wrappers/Texture.h"
+#include "../../Unfiltered/DynamicTexture.h"
 
 class VX_C_RenderManager
 {
