@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Engine Documentation</title>
+</head>
+<body>
+    <div id="header-container">
+        <h1 id="header-h1">REAL ENGINE</h1>   
+    </div>
+    
+    <div class='doc-container' id="getting-started">
+        <div class="text-block">
+            <h2>Getting started</h2>
+            <p>Use BackendInitializer to start SDL subsystem. </p>
+            <p>If it was successfully started, a VX_C_Window class can be initialized to display a game window.</p>
+            <p>VX_C_Window constructor takes an SDL_Renderer*, which can be initialized as a global variable in source. </p>
+            <p>The engine uses the VX_C_GameManager class to handle most engine-related things, and it takes in the VX_C_Window as a reference in the constructor.</p>
+            <p>Currently the game engine uses SDL2's base game loop, which takes an SDL_Event e.</p>
+        </div>
+        <div class="code-block">
+            <p> 
+                 SDL_Event e; <br> 
+                 bool quit = false; <br> 
+                 while (!quit){ <br> 
+                &nbsp;&nbsp;&nbsp;&nbsp;while (SDL_PollEvent (&e) != 0){ <br> 
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if (e.type == SDL_QUIT){ <br> 
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;quit = true; <br> 
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; } <br> 
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;} <br> 
+                &nbsp;&nbsp;&nbsp;&nbsp; // game manager handles frame here <br> 
+                } <br>
+            </p>
+        </div>
+        <div class="text-block">
+            <p>All input handling and window rendering also takes place inside the game manager block. </p>
+        </div>
+    </div>
+    
+    <div class='doc-container' id="entity">
+        <div class="text-block">
+            <h2>Entity</h2>
+            <p>The base entity class is VX_C_Entity. Components can be added to the entity to specify <br>
+            entity behavior. Note that entities that require a manager (physics, rendering) need to be added to the <br>
+            respective manager. Entities have many helper functions to enable common features or access important <br>
+            features of a component. Some helper functions include:</p>
+        </div>
+        <div class="code-block">
+            <p>
+                getEntityPositionX(); <br>
+                getEntityPositionY(); <br>
+                setRenderLayer(RenderLayer layer); <br>
+                loadTexture(); <br>
+                loadTextToTexture(); <br>
+                toggleGravity(); <br>
+                setVelocity(); <br>
+                hasVelocity(); <br>
+                toggleVelocityTracer(); <br>
+                togglePhysicsRayDisplay(); <br>
+            </p>
+        </div>
+        <div class="text-block">
+            <p>
+            All entity helpers can be found in Entity/Entity.h - VX_C_Entity. <br>
+            Adding an entity to a manger is done through the VX_C_GameManager, <br>
+            by passing a reference to the entity to the VX_C_GameManager::addEntity() function. <br>
+            </p>
+        </div>
+    </div>
+
+    <div class='doc-container' id="map">
+        <div class="text-block">
+            <h2>Map</h2>
+            <p>Building map entities is done by passing VX_C_MapReader::parseMap(String mapFile) to the game manager. <br>
+                Right now the map system requires you to make your own map file by hand. The mapfile structure is as follows: <br>
+                TILE.TILE.TILE. --- etc. <br>
+                TILE.TILE.TILE. --- etc. <br>
+                Where each tile is separated by '.' <br>
+                The format for tiles has physics, render layer, physics and tiletype, denoted by the following: <br>
+                tiletype={air:A,ground:G}	 <br>
+                physics={disabled:D,enabled:E,gravity:F}
+                physicsState={none:N,jumping:J,standing:S,falling:F,ground:G} <br>
+                renderLayer={none:N,background:B,foreground:F,entity:E,actor:A} <br>
+                For example, two tiles with the type A, enabled physics, falling state, background render layer: <br>
+                &nbsp; AEFB.AEFB. <br>
+            </p>
+        </div>
+    </div>
+
+    <div><p>Demo</p></div>
+</body>
+<style>
+    body{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-image: url("background.png");
+        background-size: cover;
+        background-blend-mode: overlay;
+        background-color: rgba(245, 245, 255, 0.95);
+    }
+    #header-container{
+        width: 100%;
+        height: 20%;
+        overflow: hidden;
+        display: flex;
+        justify-content: space-evenly;
+        background-color: rgb(235, 245, 255);
+        opacity: 0.7;
+    }
+    #header-h1{
+        color: rgb(0, 83, 161);
+        letter-spacing: 0.1em;
+        font-size: 3em;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .doc-container{
+        width: 80%;
+        overflow: hidden;
+        background-color: rgba(235, 245, 255, 0.5);
+        margin-left: 10%;
+        margin-bottom: 2%;
+        margin-top: 2%;
+        transition-duration: 100ms;
+    }
+    .doc-container:hover{
+        background-color: rgba(235, 245, 255, 1);
+        transition-duration: 100ms;
+        
+    }
+    .text-block{
+        margin-left: 5%;
+    }
+    .text-block>h2{
+        color: rgb(0, 83, 161);
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 30px;
+    }
+    .code-block{
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: 10%;
+        width: 25%;
+        background-color: rgba(210, 210, 255, 0.7);
+    }
+</style>
+<script>
+document.getElementById("getting-started").onclick = function(){
+    window.open("https://github.com/PeterKrooni/RealEngine/blob/main/Source.cpp", '_blank');
+}
+document.getElementById("entity").onclick = function(){
+    window.open("https://github.com/PeterKrooni/RealEngine/blob/main/Entity/Entity.h", '_blank');
+}
+document.getElementById("map").onclick = function(){
+    window.open("https://github.com/PeterKrooni/RealEngine/blob/main/Map/MapReader.h", '_blank');
+}
+</script>
+</html>
