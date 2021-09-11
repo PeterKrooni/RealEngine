@@ -10,15 +10,15 @@ Features include:
 The Source.cpp file will contain different types of demos of features currently in progress, but is not meant as an "editor" in any way. 
 More in-depth documentation is coming soon.
 
-## How to build
-Right now there aren't really any easy ways to compile the project, but I am working on it. An alternative solution is to clone the repository into a new VS project (or IDE of your choice):
+## How to run
+Right now there aren't really any easy ways to compile the project, but I am trying to work up a solution for that. An alternative solution is to run the project in a new VS project (or IDE of your choice):
 
 Requirements: 
 - SDL2.0, SDL2_image, SDL2_ttf, SDL2_mixer
 -	C++17 or higher. 
 ---
 1. Add SDL2 libraries and include directories to VS
-2. Clone into this repository
+2. Clone/Unzip RealEngine project into VS
 3. Run Source.cpp
 
 ## Overview
@@ -31,7 +31,7 @@ These entities have their components managed by the Managers, which handle entit
 No assets are currently included in the engine, as asset handling still needs some work before that becomes a priority.
 
 #### Documentation
-Custom real engine objects are prepended with 'VX_ + object type_ + name'
+Custom RealEngine objects are prepended with 'VX_ + object type_ + name'
 
 VX_C ||  Class
 
