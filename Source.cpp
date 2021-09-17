@@ -24,9 +24,6 @@
 
 #include <iostream>
 
-/*
-*	TODO:: global renderer is probably better idea than this target window texture queue clusterfuck
-*/
 SDL_Renderer* GLOBAL_RENDERER__ = NULL;
 
 int main (int argc, char* args[]) {
@@ -50,47 +47,6 @@ int main (int argc, char* args[]) {
 
 	VX_C_GameManager gameManager(&w);
 	gameManager.buildAutoEntities(&w, VX_C_MapReader::parseMap("Assets/Map/testmap.txt"));
-
-	Ray ray;
-	ray = Ray(0, 0, 3, 1);
-	Vector2 line(0, 0, 3, 1);
-	Point p = ray.cast(line);
-	std::cout << p.x << ", " << p.y << std::endl;
-
-
-	/*
-TODO:
-	Rays seem to be behind one frame behind hitbox when looking at the drawn rays (trace ray display thing)
-
-	Debugging tools:
-		text overview on entities
-		debug menu in top left?
-			-> select entity, shows entity state, position etc.
-		Debugging tool idea:
-			toggleable chat log that logs data in the engine, amount depending on verbosity
-				-> for example, amount of entities, time spent doing physics per frame, rendering per frame etc.
-				-> clicking on an entity shows data about that entity in the log
-	Add composite component handling in physics manager
-	Add a way to store entities in game manager (to make a toggleIdOverhead method)
-	Continously remove enitites in render and physics that point to null (or have remove flag or something)
-
-	Animations
-		Animation Controller -> hierarchy 
-		Idle -> Move -> Jump etc. 
-		next step in hierarchy overrides previous animation controller
-
-	State based animation
-		Play animation based on entity state
-			Using physics state as base entity state
-
-
-
-
-
-
-	Config file for file paths
-*/
-
 	
 	VX_C_Actor act;
 	act.setSprite("Assets/Image/PLAYER2_STANDING2.png", &w);
